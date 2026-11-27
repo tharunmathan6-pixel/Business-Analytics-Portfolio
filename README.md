@@ -1,17 +1,18 @@
 # Business Analytics Portfolio
 
-Six capstone projects by Tharun M, each with a Python notebook and a Power BI report.
+Six capstone projects by Tharun M.
 
-| Project | Python | Power BI | Python data source |
-| --- | --- | --- | --- |
-| Smart City Traffic Analytics | [Notebook](SmartCityTrafficAnalytics.ipynb) | [Download project ZIP](SmartCityTrafficAnalytics.zip) | [UCI repository](https://archive.ics.uci.edu/dataset/492/) |
-| Startup Investment Analytics | [Notebook](StartupInvestmentAnalytics.ipynb) | [Download project ZIP](StartupInvestmentAnalytics.zip) | [Indian Startup Funding](https://www.kaggle.com/datasets/sudalairajkumar/indian-startup-funding) |
-| Financial Fraud Intelligence | [Notebook](FinancialFraudIntelligence.ipynb) | [Download project ZIP](FinancialFraudIntelligence.zip) | [ULB credit card fraud dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) |
-| Social Media Trend Intelligence | [Notebook](SocialMediaTrendIntelligence.ipynb) | [Download project ZIP](SocialMediaTrendIntelligence.zip) | Sentiment140 via Hugging Face (source URL in notebook) |
-| Global Climate Change Intelligence | [Notebook](GlobalClimateChangeIntelligence.ipynb) | [Download project ZIP](GlobalClimateChangeIntelligence.zip) | [NASA GISTEMP](https://data.giss.nasa.gov/gistemp/) |
-| Smart Agriculture Analytics | [Notebook](SmartAgricultureAnalytics.ipynb) | [Download project ZIP](SmartAgricultureAnalytics.zip) | Kaggle (dataset IDs in notebook) |
+| Project | Original dataset | Data download | Python | Power BI (existing) |
+| --- | --- | --- | --- | --- |
+| Smart City Traffic Analytics | [Dataset source](https://archive.ics.uci.edu/dataset/492/metro+interstate+traffic+volume) | [Download data](https://archive.ics.uci.edu/static/public/492/metro+interstate+traffic+volume.zip) | [Notebook](SmartCityTrafficAnalytics.ipynb) | [Project ZIP](SmartCityTrafficAnalytics.zip) |
+| Startup Investment Analytics | [Dataset source](https://www.kaggle.com/datasets/sudalairajkumar/indian-startup-funding) | [Download data](https://raw.githubusercontent.com/NishantT2001/Indian_Startup_Funding_Analysis/main/startup_dataset.csv) | [Notebook](StartupInvestmentAnalytics.ipynb) | [Project ZIP](StartupInvestmentAnalytics.zip) |
+| Financial Fraud Intelligence | [Dataset source](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) | [Download data](https://storage.googleapis.com/download.tensorflow.org/data/creditcard.csv) | [Notebook](FinancialFraudIntelligence.ipynb) | [Project ZIP](FinancialFraudIntelligence.zip) |
+| Social Media Trend Intelligence | [Dataset source](https://huggingface.co/datasets/andrea-t94/TwitterSentiment140) | [Download data](https://huggingface.co/datasets/andrea-t94/TwitterSentiment140/resolve/main/training.1600000.processed.noemoticon.csv) | [Notebook](SocialMediaTrendIntelligence.ipynb) | [Project ZIP](SocialMediaTrendIntelligence.zip) |
+| Global Climate Change Intelligence | [Dataset source](https://data.giss.nasa.gov/gistemp/) | [Download data](https://data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts+dSST.csv) | [Notebook](GlobalClimateChangeIntelligence.ipynb) | [Project ZIP](GlobalClimateChangeIntelligence.zip) |
+| Smart Agriculture Analytics | [Dataset source](https://www.kaggle.com/datasets/abhinand05/crop-production-in-india) | [Kaggle alternative](https://www.kaggle.com/datasets/srinivas1/agricuture-crops-production-in-india) | [Notebook](SmartAgricultureAnalytics.ipynb) | [Project ZIP](SmartAgricultureAnalytics.zip) |
 
 ## Run the projects
 
-- **Python:** Upload the notebook to Google Colab and run the cell. It installs dependencies and retrieves the source data. The upstream datasets must be reachable.
-- **Power BI:** Download and extract the project ZIP, then open its `.pbip` file in Power BI Desktop on Windows. Keep its report and semantic model folders beside it.
+- Python: Open notebooks in Google Colab and run the cells to retrieve data. External sources may require authentication or change availability.
+- Power BI: Extract each ZIP and open the PBIP file in Power BI Desktop. Existing reports are retained while slicer corrections are in progress.
+- Tableau: Not yet published.
